@@ -1,0 +1,3 @@
+date,platform,funnel_stage,prompt,brand_mentioned,brand_position,description_accurate,brand_page_cited,cited_urls,competitors_mentioned,notes
+2026-11-18,ChatGPT,Consideration,"What is the best [category] for [audience]?",No,,,,"https://example-review-site.com/best-category","Competitor A; Competitor B","Example row: replace with your results"
+2026-11-18,Perplexity,Comparison,"[brand] vs [competitor]",Yes,2,Partly,https://yourbrand.com/brand-vs-competitor,"https://yourbrand.com/brand-vs-competitor; https://competitor.com","Competitor A","Example row: pricing out of date"

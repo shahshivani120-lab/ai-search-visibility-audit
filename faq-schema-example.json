@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best performance management software for law firms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start your answer with a direct, one-sentence response, then explain the criteria (for example: support for partner and associate reviews, upward feedback, confidentiality and reporting) and name the options you compare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does [brand] cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "State the pricing model plainly in text (per user, per month, tiers) so AI assistants can quote it accurately. Keep this answer updated whenever pricing changes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does [brand] integrate with QuickBooks and Xero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Answer yes or no first, then list the integrations and what they do."
+      }
+    }
+  ]
+}
