@@ -7,7 +7,7 @@
       "name": "What is the best performance management software for law firms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Start your answer with a direct, one-sentence response, then explain the criteria (for example: support for partner and associate reviews, upward feedback, confidentiality and reporting) and name the options you compare."
+        "text": "EXAMPLE: Start with a direct one-sentence answer, then explain the criteria (for example: partner and associate reviews, upward feedback, confidentiality and reporting) and name the options you compare. The text here must match the FAQ text visible on the page."
       }
     },
     {
@@ -15,7 +15,7 @@
       "name": "How much does [brand] cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "State the pricing model plainly in text (per user, per month, tiers) so AI assistants can quote it accurately. Keep this answer updated whenever pricing changes."
+        "text": "EXAMPLE: State the pricing model plainly (per user, per month, tiers, setup fees) so AI assistants can quote it accurately. Update this whenever pricing changes."
       }
     },
     {
@@ -23,7 +23,15 @@
       "name": "Does [brand] integrate with QuickBooks and Xero?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Answer yes or no first, then list the integrations and what they do."
+        "text": "EXAMPLE: Answer yes or no first, then list the integrations and what each one does."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to set up [brand]?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EXAMPLE: Give a specific timeframe (e.g. 2 to 4 weeks for a 100-person firm) and the main steps."
       }
     }
   ]

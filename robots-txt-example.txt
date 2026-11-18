@@ -1,0 +1,90 @@
+# =============================================================
+# Example robots.txt for AI search visibility
+# Place at: https://yourdomain.com/robots.txt
+# Lines starting with # are comments and are ignored by crawlers.
+# Check each company's official docs before using on a live site,
+# as crawler names can change.
+# =============================================================
+
+# -------------------------------------------------------------
+# 1. Default rule for all crawlers: allow the whole site,
+#    except private areas.
+# -------------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+
+# -------------------------------------------------------------
+# 2. AI SEARCH crawlers: keep these ALLOWED for visibility.
+#    (They're already covered by the * rule above. Listing
+#    them explicitly makes your intent clear.)
+# -------------------------------------------------------------
+
+# OpenAI: ChatGPT search results
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI: pages visited when a ChatGPT user asks
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity: indexing for answers
+User-agent: PerplexityBot
+Allow: /
+
+# Perplexity: pages visited on behalf of users
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic: Claude search
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic: pages visited on behalf of Claude users
+User-agent: Claude-User
+Allow: /
+
+# Microsoft: Bing (also powers Copilot)
+User-agent: Bingbot
+Allow: /
+
+# Google: Search, AI Overviews, AI Mode
+User-agent: Googlebot
+Allow: /
+
+# -------------------------------------------------------------
+# 3. AI TRAINING crawlers: a business decision.
+#    Option A (default here): allow them.
+#    Option B: block them by changing "Allow: /" to "Disallow: /".
+#    Blocking these does NOT remove you from AI search results
+#    as long as the search crawlers above are allowed.
+# -------------------------------------------------------------
+
+# OpenAI: model training
+User-agent: GPTBot
+Allow: /
+
+# Anthropic: model training
+User-agent: ClaudeBot
+Allow: /
+
+# Google: use of content for Gemini models
+# (does not affect Google Search or AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Apple: use of content for Apple AI models
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl: open web archive used by many AI models
+User-agent: CCBot
+Allow: /
+
+# -------------------------------------------------------------
+# 4. Sitemap: helps all crawlers find your pages.
+# -------------------------------------------------------------
+Sitemap: https://yourdomain.com/sitemap.xml

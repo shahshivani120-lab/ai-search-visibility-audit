@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "[Brand name]",
+  "alternateName": "[Short name or acronym, e.g. SRA]",
+  "url": "https://yourdomain.com/",
+  "logo": "https://yourdomain.com/logo.png",
+  "description": "[One-sentence description: Brand is a category for audience that main benefit.]",
+  "foundingDate": "[YYYY]",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "[City]",
+    "addressRegion": "[State]",
+    "addressCountry": "[Country code, e.g. AU or US]"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "[sales@yourdomain.com]",
+    "url": "https://yourdomain.com/contact"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/[brand]",
+    "https://www.facebook.com/[brand]",
+    "https://www.instagram.com/[brand]",
+    "https://www.youtube.com/@[brand]",
+    "https://[review-site].com/products/[brand]"
+  ],
+  "knowsAbout": [
+    "[Topic 1, e.g. performance management for law firms]",
+    "[Topic 2]",
+    "[Topic 3]"
+  ]
+}
